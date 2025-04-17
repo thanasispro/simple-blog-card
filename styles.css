@@ -1,0 +1,150 @@
+@import './variables.css';
+
+time {
+    font-family: var(--text-preset-3-font-family);
+    font-style: var(--text-preset-3-font-style);
+    font-weight: var(--text-preset-3-font-weight);
+    font-size: var(--text-preset-3-font-size);
+    line-height: var(--text-preset-3-line-height);
+    margin: 0; /* Remove default margin */
+}
+
+h1 {
+    font-family: var(--text-preset-1-font-family);
+    font-style: var(--text-preset-1-font-style);
+    font-weight: var(--text-preset-1-font-weight);
+    font-size: var(--text-preset-1-font-size);
+    line-height: var(--text-preset-1-line-height);
+    color: var(--color-gray-950);
+    margin: 0; /* Remove default margin */
+}
+
+h1:hover {
+    color: var(--color-yellow);
+    cursor: pointer;
+}
+
+h2 {
+    font-family: var(--text-preset-2-font-family);
+    font-style: var(--text-preset-2-font-style);
+    font-weight: var(--text-preset-2-font-weight);
+    font-size: var(--text-preset-2-font-size);
+    line-height: var(--text-preset-2-line-height);
+    color: var(--color-gray-500);
+    margin: 0;
+}
+
+body {
+    /* Typography */
+    font-family: var(--font-family);
+    color: var(--color-gray-950);
+ 
+    /* Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* Full Page Dimensions */
+    width: 100vw;
+    height: 100vh;
+
+    /* Background */
+    background: var(--color-yellow);
+    margin: 0; /* Remove default margin */
+}
+
+.card {
+    /* Box Sizing */
+    box-sizing: border-box;
+
+    /* Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+
+    /* Dimensions */
+    width: 384px;
+
+    /* Appearance */
+    background: var(--color-white);
+    border: 1px solid #111111;
+    box-shadow: 8px 8px 0px #000000;
+    border-radius: 20px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.blog-image {
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.content {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
+
+.category {
+    /* Auto layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+
+    /* Dimensions */
+    width: auto;
+
+    /* Appearance */
+    background: #F4D04E;
+    border-radius: 4px;
+
+    /* Typography */
+    font-family: var(--text-preset-3-bold-font-family);
+    font-style: var(--text-preset-3-bold-font-style);
+    font-weight: var(--text-preset-3-bold-font-weight);
+    font-size: var(--text-preset-3-bold-font-size);
+    line-height: var(--text-preset-3-bold-line-height);
+}
+
+.author {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+}
+
+.author strong {
+    font-family: var(--text-preset-3-bold-font-family);
+    font-style: var(--text-preset-3-bold-font-style);
+    font-weight: var(--text-preset-3-bold-font-weight);
+    font-size: var(--text-preset-3-bold-font-size);
+    line-height: var(--text-preset-3-bold-line-height);
+    color: var(--color-gray-950);
+}
+
+
+.author-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits properly */
+}

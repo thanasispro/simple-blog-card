@@ -1,0 +1,79 @@
+/* Font Face Definitions */
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500; /* Regular weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+    font-weight: 600; /* Medium weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 900; /* Extra Bold weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500; /*Italic regular weight */
+    font-style: normal;
+}
+
+:root {
+    /* Color Variables */
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray-500: hsl(0, 0%, 42%);
+    --color-gray-950: hsl(0, 0%, 7%);
+
+    /* Font Variables */
+    --font-family: 'Figtree', sans-serif;
+    --font-weight-regular: 500; /* Regular weight */
+    --font-weight-medium: 600; /* Medium weight */
+    --font-weight-bold: 800; /* Bold weight */
+    --font-weight-extra-bold: 900; /* Extra Bold weight */
+    --font-size-body: 16px; /* Default body font size */
+
+    /* Spacing Variables */
+    --spacing-50: 4px; /* Small spacing */
+    --spacing-100: 8px; /* Medium spacing */
+    --spacing-150: 12px; /* Large spacing */
+    --spacing-300: 24px; /* Extra large spacing */
+
+    /* Text Preset 1 */
+    --text-preset-1-font-family: var(--font-family);
+    --text-preset-1-font-weight: var(--font-weight-bold);
+    --text-preset-1-font-size: 24px;
+    --text-preset-1-line-height: 150%;
+    --text-preset-1-letter-spacing: 0px;
+
+    /* Text Preset 2 */
+    --text-preset-2-font-family: var(--font-family);
+    --text-preset-2-font-weight: var(--font-weight-medium);
+    --text-preset-2-font-size: 16px;
+    --text-preset-2-line-height: 150%;
+    --text-preset-2-letter-spacing: 0px;
+
+    /* Text Preset 3 */
+    --text-preset-3-font-family: var(--font-family);
+    --text-preset-3-font-weight: var(--font-weight-medium);
+    --text-preset-3-font-size: 14px;
+    --text-preset-3-line-height: 150%;
+    --text-preset-3-letter-spacing: 0px;
+
+    /* Text Preset 3 (Bold) */
+    --text-preset-3-bold-font-family: var(--font-family);
+    --text-preset-3-bold-font-weight: var(--font-weight-extra-bold);
+    --text-preset-3-bold-font-size: 14px;
+    --text-preset-3-bold-line-height: 150%;
+    --text-preset-3-bold-letter-spacing: 0px;
+}
+
