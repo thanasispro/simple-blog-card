@@ -6,6 +6,7 @@ time {
     font-weight: var(--text-preset-3-font-weight);
     font-size: var(--text-preset-3-font-size);
     line-height: var(--text-preset-3-line-height);
+    color: var(--color-gray-950);
     margin: 0; /* Remove default margin */
 }
 
